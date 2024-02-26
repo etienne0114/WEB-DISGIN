@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    align-content: center;
+    background-color: rgb(51, 37, 145);
+    justify-content: center;
+   height: 50px;
+   justify-content: center;
+   color: white;
+
+}
+ul{
+    list-style-type: none;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+#welcome_message{
+    margin: 10px;
+    padding: 5px;
+}
+   
+ #home,#about,#services{
+     cursor: pointer;
+     float: left;
+     padding-left: 25px;
+     padding-top: 10px; 
+     text-decoration: none;align-items: center;
+
+ }
+ .home_content{
+    margin: 20px;
+    justify-content: center;
+    display: inline-flex;
+    padding: 10px;
+    flex-wrap: wrap;
+ }
+ .tech_div,.food_div,.nature_div{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 2px 0px ;
+ 
+ }
+ #h3_menu{
+   
+    padding: 5px 10px 15px 30px;
+    font-size: large;
+    color: blue;
+ }
